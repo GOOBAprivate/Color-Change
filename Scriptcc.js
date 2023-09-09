@@ -50,7 +50,7 @@ const inputColor = function () {
   let text = prompt("Send Color")
   if (text) {
     document.body.style.backgroundColor = text
-  } else if (text !== document.body.style.backdropFilter) {
+  } else {
     alert("is not a color");
   }
 
